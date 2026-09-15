@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // Import de Banco de Dados JDBC
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.Statement;
 
 @SpringBootApplication
 public class GerenciadorNomesApplication implements CommandLineRunner {
